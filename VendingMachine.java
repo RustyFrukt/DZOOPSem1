@@ -11,7 +11,7 @@ public class VendingMachine {
         this.products = products;
     }
 
-    public BottleOfWater getBottleOfWater(double volume){
+    /*public BottleOfWater getBottleOfWater(double volume){
         for (Product product : products){
             if (product instanceof BottleOfWater){
                 if (((BottleOfWater)product).getVolume()  == volume){
@@ -20,7 +20,7 @@ public class VendingMachine {
             }
         }
         return null;
-    }
+    }*/
 
     public Chocolate getChocolate(int type){
         for (Product product : products){
